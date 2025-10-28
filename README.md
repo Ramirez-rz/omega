@@ -29,21 +29,6 @@ npx expo start -c
         - Keep an analysis of different due pay dates of the credit cards,
           automate of suggest a flow to do it depending on the analysis, and show all the process or reasoning
           behind the payment plan suggested and the result, saving some money and debt.
-    
-        
-### Essential tools
-   To make this possible, we use a specialized tool called Plaid, that is a secure financial connectivity provider allowing us to connect multiple banks and user cards to access up-to-date information about accounts, balances, credit limits, and payment dates, all without storing sensitive information. 
-        
-        What Plaid Does?
-            - Securely connect to multiple banks without storing user credentials.  
-            - Access real-time financial data, such as balances, transactions, and due dates.  
-            - Authenticate payments and transfers authorized by the user through encrypted banking channels.  
-            - Standardize integrations using Open Banking APIs, making it possible to interact with different financial institutions in a unified way.
-            
-        Why Plaid?
-            - Analyze each user's financial status across multiple banks.  
-            - Detect debts or upcoming payment deadlines.  
-            - Guarantee compliance with financial regulations like PSD2 and Open Banking standards.
         
 ### Programming Tools
         
@@ -64,11 +49,7 @@ npx expo start -c
 
    In the security part, we split it by subtopics, depending on the type of functionality we want to protect.
    
-    In the deep-level:
-        Plaid handles all, such as the financial security, like encrypted connections with banks, authentication with financial institutions, and protection of user credentials. 
-        
-    In the app:
-        We focus on ensuring secure user interaction and decision-making at every step:
+    We focus on ensuring secure user interaction and decision-making at every step:
         
     Access and Authentication:
         - To enter the app, users must verify their identity using PIN, or password (Depending on the device, you can use Face ID.), this ensures that only authorized users can view or manage their connected financial accounts.  
@@ -88,7 +69,8 @@ npx expo start -c
    Together, this guarantees that every action from the login to the payment, is intentional, verified, and secure.
    
 ## Potential Expansions:
-        
+
+         -Plaid integration for future versions could connect directly to real bank data, automating balance updates and payment recommendations securely.
          -Parental control for extension cards with the ability to monitor or block card usage.
          -Digital widgets to monitor different cards without having to log in to the app.
          -Filters to monitor purchases by category.
