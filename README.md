@@ -34,7 +34,6 @@ npx expo start -c
         
       The programming tools that we used for this app were:
             - TypeScript: Logic and app structure.
-            - Plaid: Securely connecting to user financial data.
             - React Native: Building a cross-platform mobile app.
             - Supabase: Managing authentication, user sessions, and database storage.
             - Git: Version control and collaborative development.
